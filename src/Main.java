@@ -4,5 +4,6 @@ public class Main {
 
         System.out.println("This is main method in Main class");
 
+
     }
 }
