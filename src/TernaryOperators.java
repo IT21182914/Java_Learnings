@@ -13,12 +13,17 @@ public class TernaryOperators {
         String makeOfCar = "Volkswagen";
 
 
-        // Ternary operator
+        // Ternary operator Using boolean
         boolean isCar = makeOfCar == "Volkswagen" ? true : false;
 
         if (isCar) {
             System.out.println("\nThis is a Volkswagen");
         }
+
+
+        //Using String
+        String s = (isCar) ? "This is a car" : "This is not a car";
+        System.out.println(s);
     }
 
 }
