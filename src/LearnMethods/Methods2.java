@@ -25,4 +25,19 @@ public class Methods2 {
         }
         return finalScore;
     }
+
+    public static int calculateScore1(boolean gameOver, int score, int levelCompleted, int bonus) {
+
+        int finalScore = 0;
+
+        if (gameOver) {
+
+            finalScore = score;
+
+            finalScore += (levelCompleted * bonus);
+            finalScore += 1000;
+
+        }
+        return finalScore;
+    }
 }
