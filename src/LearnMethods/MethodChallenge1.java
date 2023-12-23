@@ -5,7 +5,7 @@ public class MethodChallenge1 {
 
 
         displayHighScorePosition("Tim", calculateHighScorePosition(1500));
-        displayHighScorePosition("Mike", calculateHighScorePosition(900));
+        displayHighScorePosition("Mike", calculateHighScorePosition(1000));
         displayHighScorePosition("Mosh", calculateHighScorePosition(500));
         displayHighScorePosition("Bob", calculateHighScorePosition(100));
         displayHighScorePosition("Percy", calculateHighScorePosition(25));
@@ -16,21 +16,42 @@ public class MethodChallenge1 {
     }
 
     public static int calculateHighScorePosition(int playerScore) {
+
         if (playerScore >= 1000) {
             return 1;
         } else if (playerScore >= 500) {
             return 2;
         } else if (playerScore >= 100) {
             return 3;
-        } else {
-            return 4;
         }
+
+        return 4;
+
+
+
+
+
+
+
+
+
+
+        //        (  int position = 4;
+//        if (playerScore >= 1000) {
+//            position = 1;
+//        } else if (playerScore >= 500) {
+//            position = 2;
+//        } else if (playerScore >= 100) {
+//            position = 3;
+//        }
+//
+//        return position;)
 
 
 //        int score = calculateHighScorePosition(1500);
 //        displayHighScorePosition("Tim", score);
 //
-//        score = calculateHighScorePosition(900);
+//        score = calculateHighScorePosition(1000);
 //        displayHighScorePosition("Mike", score);
 //
 //        score = calculateHighScorePosition(500);
@@ -58,11 +79,11 @@ public class MethodChallenge1 {
 //
 //            result = 1;
 //
-//        } else if (score >= 500 && score < 1000) {
+//        } else if (score >= 500) {
 //
 //            result = 2;
 //
-//        } else if (score >= 100 && score < 500) {
+//        } else if (score >= 100) {
 //
 //            result = 3;
 //
