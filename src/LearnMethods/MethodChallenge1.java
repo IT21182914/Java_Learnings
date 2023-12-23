@@ -28,7 +28,7 @@ public class MethodChallenge1 {
         return 4;
 
 
-        //int position = 4;
+        //        int position = 4;
         //        if (playerScore >= 1000) {
         //            position = 1;
         //        } else if (playerScore >= 500) {
