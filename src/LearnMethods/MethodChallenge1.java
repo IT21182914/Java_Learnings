@@ -81,10 +81,7 @@ public class MethodChallenge1 {
 //
 //        } else result = 4;
 //
-//
-//
 //        return result;
-//
-//
+
     }
 }
