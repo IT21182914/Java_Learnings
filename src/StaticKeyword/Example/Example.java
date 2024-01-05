@@ -2,7 +2,7 @@ package StaticKeyword.Example;
 
 public class Example {
     // Static variable (shared among all instances)
-    static int count = 0;
+    public static int count = 0;
 
     // Instance variable
     int instanceCount = 0;
