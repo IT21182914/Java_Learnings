@@ -15,3 +15,4 @@ class ResizableCircle extends Circle implements Resizable {
         setRadius(getRadius() * factor);
     }
 }
+
