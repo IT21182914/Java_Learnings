@@ -13,19 +13,16 @@ public class Main {
 
         Stack stack2 = new Stack(5);
 
-        popAndPush(stack1, stack2);
+        // Transfer elements from stack1 to stack2
+        while (!stack1.isEmpty()) {
+            int element = stack1.pop();
+            stack2.push(element);
+            System.out.println("Popped " + element + " from stack1 and pushed into stack2");
+        }
 
-        System.out.println("Elements in stack2 after popping from stack1 and pushing into stack2:");
+        System.out.println("Elements in stack2 after transferring from stack1:");
         while (!stack2.isEmpty()) {
             System.out.println(stack2.pop());
-        }
-    }
-
-    public static void popAndPush(Stack source, Stack destination) {
-        while (!source.isEmpty()) {
-            int element = source.pop();
-            destination.push(element);
-            System.out.println("Popped " + element + " from stack1 and pushed into stack2");
         }
     }
 }
