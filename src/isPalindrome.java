@@ -5,7 +5,7 @@ public class isPalindrome {
 
         // Reverse the number
         while (number != 0) {
-            int digit = number % 10;  // Get the last digit
+            int digit = number % 10;  // Get the last digit.
             reversedNumber = reversedNumber * 10 + digit;  // Append digit to the reversed number
             number /= 10;  // Remove the last digit from the number
         }
