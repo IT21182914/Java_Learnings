@@ -11,11 +11,13 @@ public class Hello {
             System.out.println("\nIt is an alien!👽");
             System.out.println("Run 🏃‍♂️!");
         }
-        
+
         boolean isCar = false;
 
         if (isCar == true) {
             System.out.println("\nThis is not supposed to happen");
         }
+
+
     }
 }
